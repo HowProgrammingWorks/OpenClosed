@@ -1,2 +1,1 @@
-# OpenClosed
-The Open Closed Principle
+# The Open Closed Principle
