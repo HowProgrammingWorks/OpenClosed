@@ -23,8 +23,8 @@ class PaymentService {
 }
 
 class Bank extends PaymentService {
-  constructor(type) {
-    super(type, true);
+  constructor(type = 'card', active = true) {
+    super(type, active);
   }
 
   processPayment({ to, amount, check = true }, callback) {
