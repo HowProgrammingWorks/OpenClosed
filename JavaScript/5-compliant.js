@@ -3,7 +3,7 @@
 class PaymentService {
   processPayment(to, amount) {
     const data = { instance: this, payment: { to, amount } };
-    throw new Error('Abstract method: ' + JSON.stringify(data));
+    throw new Error(`Abstract method: ${JSON.stringify(data)}`);
   }
 }
 
